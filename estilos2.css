@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+body {
+    font-family: 'Newsreader', sans-serif;
+    font-weight: 100;
+    color: #D7D9A9;
+    background-color: #F2D8D8;
+
+    padding: 10;
+    margin: 10px;
+
+    font-size: 18px;
+}
+
+a {
+    font-weight: 400;
+    color: #BF5D54;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-shadow: 0 0 1px black;
+}
+
+a:hover {
+    color: #BF5D54;
+    transition: 0.5s;
+    border: 1px solid #BF5D54;
+    padding: 2px;
+    background: #D9967E;
+    border-radius: 5px;
+    text-shadow: 0 0 1px black;
+
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster Two';
+    text-shadow: 0 0 2px black;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 300;
+	color: white;
+}
+
+h2 {
+    font-size: 3em;
+	color: white;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 100px 0 0 40px;
+	color: #BF5D54;
+}
+
+
+p {
+    margin-right: 80px;
+    margin-left: 50px;
+    padding-top: 10px;
+	color: black;
+    font-size: 1em;
+    line-height: 1.5em;
+	text-align: justify;
+}
+
+.page-wrapper {
+    width: 100%;
+}
+
+.intro .header {
+    height: 75vh;
+	background: black url(planos.jpg) no-repeat 100% 45%;
+    background-size: cover;
+    text-align: center;
+	
+}
+
+.intro .header h1 {
+    padding-top: 190px;
+}
+
+.intro .header h2 {
+    padding-top: 50px;
+}
+
+.intro .summary {
+	
+	height: 25vh;
+    background: #ffffff url("lapis.png") no-repeat 100% 50%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.preamble {
+    color: white;
+}
+
+.main div {
+    height: 70vh;
+    color: black;
+    padding-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 30px !important;
+    z-index: 9999;
+    padding: 15px 10px 5px 15px;
+    background: #BF5D54;
+    border-radius: 20px 0 0 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background: #BF5D54 url("arrow.png") no-repeat 100% 48%;
+    padding: 10px 05px 10px 10px;
+    margin-left: -270px;
+    transition: 0.5s;
+    font-size: 0.8em;
+}
+
+.sidebar:hover {
+    background: #D9967E;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+.sidebar li {
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+.summary .p1{
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: .8em;
+	color: black;
+}
+.summary .p2 {
+	color: black;
+	font-family: 'Newsreader';
+	text-align: center;
+	
+	
+	
+}
+
+
